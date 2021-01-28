@@ -1,0 +1,163 @@
+/*
+#f6f5f5
+#d3e0ea
+#1687a7
+#276678
+*/
+/******************** ELEMENT TAG ********************/
+body {
+  color: #405143;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #1687a7;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #d3e0ea;
+}
+
+h1 {
+  color: #276678;
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 6rem;
+  margin: 80px auto 0 auto;
+}
+
+h2 {
+  color: #276678;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #1687a7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: 0;
+  border-top: 8px;
+  border-style: dotted;
+  border-color: #d3e0ea;
+  margin: 100px auto;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+/******************** CLASS TAG ********************/
+.top-container {
+  background-color: #d3e0ea;
+  position: relative;
+  padding-top: 50px;
+  width: 100%;
+
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #276678;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.skill-row {
+  margin: 50px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skill1-img {
+  width: 25%;
+  float: left;
+  /* clear se utiliza para que float no se aplique*/
+  margin-right: 30px;
+}
+
+.skill2-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.my-pic {
+  width: 15%;
+  border-radius:10%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.copyright {
+  color: #f6f5f5;
+  font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
+
+}
+
+.BUTTON_EDF {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #D3E0EA;
+  font-weight: 100;
+  padding: 12px 30px;
+  background-color: #1687A7;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.BUTTON_EDF:hover {
+  background: #286A7C;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact-msg {
+  margin: 40px auto 60px;
+  width: 30%;
+}
+.mountain-img{
+  margin-top: 100px;
+  width:100%
+}
+
+/*
+.skills-descp{
+  clear: both;
+}
+*/
